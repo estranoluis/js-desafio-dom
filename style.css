@@ -1,0 +1,41 @@
+header {
+    text-align: center;
+}
+
+h1 {
+    padding: 2%;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav-item {
+    text-decoration:none;
+}
+
+#section-productos {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-producto {
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+}
